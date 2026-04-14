@@ -1,5 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
+import Review from "./Review.jsx"
+import Footer from './Footer.jsx'
 
 const stats = [
     { number: '10,000+', label: 'Happy Customers' },
@@ -393,8 +395,9 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </AnimatedSection>
+                <Review/>
             </section>
-
+            <Footer/>                
         </main>
     )
 }

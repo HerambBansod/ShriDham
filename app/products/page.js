@@ -1,4 +1,4 @@
-import Color from '../../components/Color'
+import Color from '../../components/Color.jsx'
 
 export default function Page() {
   return (

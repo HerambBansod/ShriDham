@@ -1,6 +1,6 @@
 "use client"
 import { useParams } from 'next/navigation'
-import Product from '../../components/Products'
+import Product from '../../components/Products.jsx'
 
 export default function Page() {
     const params = useParams()
